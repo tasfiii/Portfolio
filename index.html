@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasfi — Software Developer</title>
+<meta name="description" content="Portfolio of Tasfia Jahan Sifa (Tasfi), a CSE undergraduate building software with C, Python, Java, and JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand">tasfi<span class="dot">.</span></a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav__links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="hero__badge"><span class="pulse-dot"></span>Available for opportunities</span>
+
+    <h1 class="hero__name">Tasfia Jahan Sifa</h1>
+    <p class="hero__role">Software Developer Enthusiast</p>
+    <p class="hero__tagline">CSE undergraduate building at the intersection of problem-solving,
+      software architecture, and ethical technology.</p>
+
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">See projects</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <p class="eyebrow">About</p>
+    <div class="about__grid">
+      <div class="about__text">
+        <p>A CSE undergraduate (2023–2027) studying at
+          <a href="https://ccnust.ac.bd" target="_blank" rel="noopener">CCN University of Science &amp; Technology</a>.
+          Having a strong foundation in problem-solving, I'm passionate about software architecture
+          and ethical technology implementation.</p>
+        <p>I look forward to building leveraging innovative technologies to solve complex,
+          real-world challenges.</p>
+      </div>
+      <div class="about__meta">
+        <div class="meta-row">
+          <span class="meta-label">status</span>
+          <span class="meta-value">building &amp; learning</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">program</span>
+          <span class="meta-value">B.Sc. in CSE</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">institute</span>
+          <span class="meta-value">CCN-UST, Bangladesh</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">cohort</span>
+          <span class="meta-value">2023 — 2027</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <p class="eyebrow">Skills</p>
+    <h2 class="section__title">Technical Arsenal</h2>
+
+    <div class="skills__grid">
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <ul class="tag-list">
+          <li>C</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Web</h3>
+        <ul class="tag-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Workflow</h3>
+        <ul class="tag-list">
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <p class="eyebrow">Projects</p>
+    <h2 class="section__title">Featured Work</h2>
+    <p class="section__note">A couple of small interactive builds — click through to play.</p>
+
+    <div class="projects__grid">
+
+      <article class="project-card">
+        <div class="project-card__head">
+          <h3>Neon Tic-Tac-Toe</h3>
+        </div>
+        <p>A classic 3x3 tic-tac-toe game with win detection and instant restart, built
+          with a glowing neon interface.</p>
+        <ul class="tag-list tag-list--small">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+        <div class="project-card__links">
+          <a href="https://tasfiii.github.io/Tic-Tac-Toe/" target="_blank" rel="noopener">Live demo →</a>
+          <a href="https://github.com/tasfiii/Tic-Tac-Toe" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__head">
+          <h3>Neon Rock, Paper, Scissors</h3>
+        </div>
+        <p>Player-vs-computer Rock Paper Scissors with live score tracking and a
+          score reset option, wrapped in the same neon visual style.</p>
+        <ul class="tag-list tag-list--small">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+        <div class="project-card__links">
+          <a href="https://tasfiii.github.io/Rock-Paper-Scissor/" target="_blank" rel="noopener">Live demo →</a>
+          <a href="https://github.com/tasfiii/Rock-Paper-Scissor" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <p class="eyebrow">Contact</p>
+    <h2 class="section__title">Let's build something</h2>
+    <p class="section__note">Open to opportunities, collaborations, or just talking shop about software.</p>
+
+    <div class="contact__links">
+      <a href="mailto:tasfiajahansifaofficial@gmail.com" class="contact-link">
+        <span class="contact-link__label">Email</span>
+        <span class="contact-link__value">tasfiajahansifaofficial@gmail.com</span>
+      </a>
+      <a href="https://github.com/tasfiii" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-link__label">GitHub</span>
+        <span class="contact-link__value">github.com/tasfiii</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Tasfia Jahan Sifa © <span id="year"></span>. Built line by line.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
